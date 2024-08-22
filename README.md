@@ -1,4 +1,5 @@
 # meu-projeto-django
+
 Meu primeiro projeto django na fabrica!
 
 ```shell
@@ -16,11 +17,29 @@ Meu primeiro projeto django na fabrica!
     # Instalar Django
     pip install django
 
+    # Criar requirements.txt
+    pip freeze > requirements.txt
+
     # Criando porjeto django
     django-admin startproject my-app .
 
-    # Criar requirements.txt
-    pip freeze > requirements.txt
+    # Criar um app
+    #OBS: MeuApp é onde você vai colocar o nome de seu app.
+    python manage.py startapp MeuApp
+
+    # usando o django-admin
+    django-admin startapp MeuApp
+
+    # Importar seu app no arquivo settings.py
+        INSTALLED_APPS = [
+            'django.contrib.admin',
+            'django.contrib.auth',
+            'django.contrib.contenttypes',
+            'django.contrib.sessions',
+            'django.contrib.messages',
+            'django.contrib.staticfiles',
+            "MeuApp",
+        ]
 
     # Gerando as migrations
     python manage.py makemigrations
