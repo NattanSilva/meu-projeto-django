@@ -2,7 +2,7 @@
 
 Meu primeiro projeto django na fabrica!
 
-<p>Caso você esteja com dificuldade em entender o Django acesse este link(<a href="https://drive.google.com/file/d/15LDO6V0MvawO9AjjOWt1k2o8yucbXE3W/view?usp=sharing" target="_blank">Aula Introdução ao DJnago</a>).</p>
+<p>Caso você esteja com dificuldade em entender o Django acesse este link(<a href="https://drive.google.com/file/d/15LDO6V0MvawO9AjjOWt1k2o8yucbXE3W/view?usp=sharing" target="_blank">Aula Introdução ao DJango</a>).</p>
 
 ```shell
     # Criando venv
